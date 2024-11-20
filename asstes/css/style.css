@@ -172,6 +172,27 @@ input {
    z-index: 2 !important;
    cursor: pointer;
 }
+.facebook {
+   z-index: 99;
+      left: 153px;
+         bottom: 347px;
+   
+}
+.linkedin {
+   z-index: 99;
+      left: 149px;
+      bottom: 246px;
+}
+.instagram {
+      left: 150px;
+         z-index: 99;
+         bottom: 134px;
+}
+.twitter {
+   z-index: 99;
+      left: 151px;
+      bottom: 35px;
+}
 
 
 
@@ -199,6 +220,6 @@ input {
       position: absolute !important;
       z-index: 99 !important;
       left: 9%;
-      bottom: -230px;
+      bottom: -180px;
    }
 }
