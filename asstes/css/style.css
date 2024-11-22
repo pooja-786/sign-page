@@ -1,225 +1,216 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
 
-
 .bg-image {
-   background-image: url(../image/png/Sign-in-img.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed;
+    background-image: url(../image/png/Sign-in-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.heading-text-center {
-   text-align: center !important;
+.sign {
+
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43.2px;
+    color: rgba(3, 7, 18, 1);
+
 }
 
-.heading-1 {
-   font-family: "Poppins", sans-serif;
-   font-size: 32px;
-   font-weight: 600;
-   line-height: 43.2px;
-   color: rgba(3, 7, 18, 1);
-   margin-top: 40px;
-}
+.text-1 {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(98, 101, 109, 1);
 
-.texts-center {
-   font-family: "Lato", sans-serif;
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 21px;
 }
 
 .text-blue {
-   font-family: "Lato", sans-serif;
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 21px;
-   color: rgba(37, 99, 235, 1);
-}
-
-a {
-   text-decoration: none !important;
-}
-
-
-
-
-.text-center-1 {
-   font-family: "Lato", sans-serif;
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 21px;
-   color: rgba(98, 101, 109, 1);
-   margin-top: 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(37, 99, 235, 1);
 
 }
 
-.text-center-2 {
-   font-family: "Lato", sans-serif;
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 21px;
-   text-align: right;
-   color: rgba(98, 101, 109, 1);
-   float: inline-end;
-   margin-top: 10px;
+label[for="Email"] {
+    position: relative;
+    display: flex;
+
+
+}
+
+.Email-icon {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+input[type="Email"][id="Email"] {
+    width: 100% !important;
+    height: 100% !important;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(245, 248, 255);
+    border-radius: 6px;
+    border: 1px solid rgba(228, 234, 247, 1)
+}
+
+
+label[for="password"] {
+    position: relative;
+    display: flex;
+}
+
+.lock-icon {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+.close-eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.close-eye-icon:hover path {
+    fill: blue;
+}
+
+
+input[type="password"][id="password"] {
+    width: 100%;
+    height: 100%;
+    padding: 30px 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(245, 248, 255);
+    border-radius: 6px;
+    border: 1px solid rgba(228, 234, 247, 1);
+    margin-top: 10px;
+}
+
+.Remember-1 {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(98, 101, 109, 1);
+    cursor: pointer;
+
+}
+
+.Forgot-1 {
+    font-family: "Lato", sans-serif !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(98, 101, 109, 1);
+    float: inline-end !important;
+    cursor: pointer;
 }
 
 .btn-1 {
-   font-family: "Poppins", sans-serif;
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 20px;
-   text-align: center;
-   color: rgba(255, 255, 255, 1);
-   border: 1px solid rgba(33, 148, 255, 1);
-   border-radius: 2rem;
-   width: 100%;
-   background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
-   margin-top: 30px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+    border: 1px solid rgba(36, 111, 240);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+    margin-top: 20px;
 
+}
+
+.line {
+    width: 100%;
+    border: 1px solid rgba(201, 207, 219, 1);
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    margin-top: 20px;
 }
 
 .continue {
-   font-family: "Lato", sans-serif;
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 21px;
-   text-align: center;
-   color: rgba(145, 151, 166, 1);
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(145, 151, 166, 1);
+    margin-top: 40px;
 
 }
 
-.line-1 {
-   border: 1px solid rgba(201, 207, 219, 1);
-   width: 100%;
-   max-width: 170px;
-}
-
-.lines {
-   display: flex !important;
-   align-items: center;
-   padding-top: 10px;
-}
-
-
-.btn {
-   border: 1px solid rgba(228, 234, 247, 1) !important;
-   cursor: pointer;
-   border-radius: 6px;
-   background-color: rgba(255, 255, 255);
-   font-family: "Lato", sans-serif;
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 21px;
-   color: rgba(98, 101, 109, 1);
-padding: 10px 70px !important;
-color: rgba(98, 101, 109, 1) !important;
-}
-
-.btn>a {
-   text-decoration: none;
-   color: rgba(98, 101, 109);
-   font-family: "Lato", sans-serif;
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 21px;
-   cursor: pointer;
-   
-}
-
-
- .mail {
-   left: 220px !important;
-   z-index: 2;
-   padding-top: 8px;
-   cursor: pointer;
-}
-
-.email-1 {
-   width: 100%;
-   padding-top: 10px;
-   padding-bottom: 10px;
-}
-
-.Password-1 {
-   width: 100%;
-   margin-top: 10px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-}
-
-input {
-   background-color: rgba(245, 248, 255);
-   border: 1px solid rgba(228, 234, 247, 1);
-   border-radius: 6px;
-   padding-left: 50px;
-}
-
-.password {
-   z-index: 2;
-   left: 220px !important;
-   padding-top: 15px;
-   cursor: pointer;
+.google-btn {
+    border: 1px solid rgba(228, 234, 247, 1);
+    background: rgba(255, 255, 255);
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
 
 }
 
-.eye-open {
-   left: 600px !important;
-   bottom: 380px !important;
-   z-index: 2 !important;
-   cursor: pointer;
+.google {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(98, 101, 109, 1);
+    text-decoration: none;
+
+
 }
+
+.facebook-btn {
+    border: 1px solid rgba(228, 234, 247, 1);
+    background: rgba(255, 255, 255);
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    float: inline-end;
+}
+
 .facebook {
-   z-index: 99;
-      left: 153px;
-         bottom: 347px;
-   
-}
-.linkedin {
-   z-index: 99;
-      left: 149px;
-      bottom: 246px;
-}
-.instagram {
-      left: 150px;
-         z-index: 99;
-         bottom: 134px;
-}
-.twitter {
-   z-index: 99;
-      left: 151px;
-      bottom: 35px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(98, 101, 109, 1);
+    text-decoration: none;
 }
 
 
-
-
-@media (min-width:992px) {
-
-   form {
-      max-width: 450px;
-   }
-
-   section::after {
-      content: "";
-      position: absolute;
-      background-image: url(../image/png/bg-blue.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      right: 0;
-      height: 100%;
-      left: 50%;
-      width: 50%;
-   }
-
-   .circle {
-      position: absolute !important;
-      z-index: 99 !important;
-      left: 9%;
-      bottom: -180px;
-   }
+@media (min-width: 992px) {
+    section::after {
+        content: "";
+        position: absolute;
+        right: 0%;
+        left: 50%;
+        background-image: url(../image/png/bg-blue.png);
+        height: 100%;
+        z-index: 2;
+        width: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+        .circle-group {
+            z-index: 99px;
+        }
 }
