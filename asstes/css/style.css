@@ -31,7 +31,10 @@
     font-weight: 400;
     line-height: 21px;
     color: rgba(37, 99, 235, 1);
-
+ 
+}
+.a {
+    text-decoration: none;
 }
 
 label[for="Email"] {
@@ -96,8 +99,7 @@ input[type="password"][id="password"] {
     border: 1px solid rgba(228, 234, 247, 1);
     margin-top: 10px;
 }
-
-.Remember-1 {
+.Remember{
     font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -107,7 +109,7 @@ input[type="password"][id="password"] {
 
 }
 
-.Forgot-1 {
+.Forgot {
     font-family: "Lato", sans-serif !important;
     font-size: 14px;
     font-weight: 400;
@@ -115,6 +117,10 @@ input[type="password"][id="password"] {
     color: rgba(98, 101, 109, 1);
     float: inline-end !important;
     cursor: pointer;
+}
+a {
+     color: rgba(98, 101, 109, 1);
+     text-decoration: none !important;
 }
 
 .btn-1 {
@@ -194,6 +200,31 @@ input[type="password"][id="password"] {
     color: rgba(98, 101, 109, 1);
     text-decoration: none;
 }
+.facebook-2 {
+    position: absolute;
+    z-index: 99 !important;
+        left: 143px;
+            top: 11px;
+}
+.linkdin-btn {
+    position: absolute;
+        z-index: 99 !important;
+            left: 146px;
+                top: 225px;
+        
+}
+.instagram-btn {
+position: absolute;
+    z-index: 99 !important;
+        left: 141px;
+            top: 111px;
+}
+.twiter-btn {
+position: absolute;
+    z-index: 99 !important;
+        left: 143px;
+            top: 323px;
+}
 
 
 @media (min-width: 992px) {
@@ -204,13 +235,22 @@ input[type="password"][id="password"] {
         left: 50%;
         background-image: url(../image/png/bg-blue.png);
         height: 100%;
-        z-index: 2;
         width: 50%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-        .circle-group {
-            z-index: 99px;
-        }
+        .circle {
+            z-index: 99 !important;
+            position: absolute;
+            right: 6%;
+            bottom: -56px;
+            
+       }
+       .photo-icon {
+        z-index: 99 !important;
+            position: absolute;
+            right: 0%;
+            bottom: 95px;
+       }
 }
