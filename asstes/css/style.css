@@ -6,6 +6,10 @@
     background-size: cover;
 }
 
+.logo {
+    padding-bottom: 40px;
+}
+
 .sign {
 
     font-family: "Poppins", sans-serif;
@@ -31,8 +35,9 @@
     font-weight: 400;
     line-height: 21px;
     color: rgba(37, 99, 235, 1);
- 
+
 }
+
 .a {
     text-decoration: none;
 }
@@ -53,13 +58,15 @@ label[for="Email"] {
 
 input[type="Email"][id="Email"] {
     width: 100% !important;
-    height: 100% !important;
-    padding-left: 30px;
-    padding-top: 10px;
+    padding: 8px 43px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     padding-bottom: 10px;
     background-color: rgba(245, 248, 255);
     border-radius: 6px;
-    border: 1px solid rgba(228, 234, 247, 1)
+    border: 1px solid rgba(228, 234, 247, 1);
+    margin-top: 10px;
 }
 
 
@@ -87,26 +94,26 @@ label[for="password"] {
     fill: blue;
 }
 
-
 input[type="password"][id="password"] {
-    width: 100%;
-    height: 100%;
-    padding: 30px 24px;
-    padding-top: 10px;
+    width: 100% !important;
+    padding: 8px 43px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     padding-bottom: 10px;
     background-color: rgba(245, 248, 255);
     border-radius: 6px;
     border: 1px solid rgba(228, 234, 247, 1);
     margin-top: 10px;
 }
-.Remember{
+
+label[for="Remember"] {
     font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     color: rgba(98, 101, 109, 1);
     cursor: pointer;
-
 }
 
 .Forgot {
@@ -118,9 +125,9 @@ input[type="password"][id="password"] {
     float: inline-end !important;
     cursor: pointer;
 }
+
 a {
-     color: rgba(98, 101, 109, 1);
-     text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 .btn-1 {
@@ -141,12 +148,11 @@ a {
 }
 
 .line {
-    width: 100%;
+    width: 107px !important;
     border: 1px solid rgba(201, 207, 219, 1);
     display: flex;
     align-items: center;
-    max-width: 250px;
-    margin-top: 20px;
+
 }
 
 .continue {
@@ -155,19 +161,15 @@ a {
     font-weight: 400;
     line-height: 21px;
     color: rgba(145, 151, 166, 1);
-    margin-top: 40px;
-
+    margin-top: 15px;
 }
 
 .google-btn {
     border: 1px solid rgba(228, 234, 247, 1);
     background: rgba(255, 255, 255);
     border-radius: 6px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 70px;
-    padding-right: 70px;
-
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .google {
@@ -178,17 +180,14 @@ a {
     color: rgba(98, 101, 109, 1);
     text-decoration: none;
 
-
 }
 
 .facebook-btn {
     border: 1px solid rgba(228, 234, 247, 1);
     background: rgba(255, 255, 255);
     border-radius: 6px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
     float: inline-end;
 }
 
@@ -200,32 +199,6 @@ a {
     color: rgba(98, 101, 109, 1);
     text-decoration: none;
 }
-.facebook-2 {
-    position: absolute;
-    z-index: 99 !important;
-        left: 143px;
-            top: 11px;
-}
-.linkdin-btn {
-    position: absolute;
-        z-index: 99 !important;
-            left: 146px;
-                top: 225px;
-        
-}
-.instagram-btn {
-position: absolute;
-    z-index: 99 !important;
-        left: 141px;
-            top: 111px;
-}
-.twiter-btn {
-position: absolute;
-    z-index: 99 !important;
-        left: 143px;
-            top: 323px;
-}
-
 
 @media (min-width: 992px) {
     section::after {
@@ -240,17 +213,160 @@ position: absolute;
         background-size: cover;
         background-position: center;
     }
-        .circle {
-            z-index: 99 !important;
-            position: absolute;
-            right: 6%;
-            bottom: -56px;
-            
-       }
-       .photo-icon {
+
+
+    .circle {
         z-index: 99 !important;
-            position: absolute;
-            right: 0%;
-            bottom: 95px;
-       }
+        position: absolute;
+        right: 0%;
+        bottom: -91px;
+        width: 100%;
+
+    }
+
+    .photo-icon {
+        z-index: 99 !important;
+        position: absolute;
+        right: 8%;
+        bottom: 140px;
+    }
+
+    .form {
+        max-width: 340px !important;
+        width: 100% !important;
+    }
+
+    img[ alt="social-icon"] {
+        position: absolute;
+        z-index: 99 !important;
+
+    }
+
+    a .facebook-2 {
+        top: -124px;
+            left: 56px;
+    }
+
+    .linkdin-btn {
+        left: 66px;
+        top: 4px
+    }
+
+    .instagram-btn {
+        top: 152px;
+        left: 61px;
+    }
+
+    .twiter-btn {
+        top: 284px;
+        left: 61px;
+    }
+}
+
+@media (max-width: 991.98px) and (min-width:576px) {
+
+    .col-lg-6::after {
+        content: "";
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        background-image: url(../image/png/bg-blue.png);
+    }
+
+    img[alt="group-circle"] {
+        position: absolute;
+        z-index: 1;
+        top: 268px;
+        left: 13%;
+    }
+
+    img[alt="photo-icon"] {
+        position: absolute;
+        z-index: 1;
+        top: 366px;
+        left: 52%;
+    }
+
+    img[ alt="social-icon"] {
+        position: absolute;
+        z-index: 99 !important;
+    }
+
+    .facebook-2 {
+        left: 140px;
+        top: 303px;
+    }
+
+    .linkdin-btn {
+
+        left: 136px;
+        top: 401px
+    }
+
+    .instagram-btn {
+        left: 134px;
+        top: 519px;
+    }
+
+
+
+    .twiter-btn {
+        left: 138px;
+        top: 618px;
+    }
+
+}
+
+@media (max-width:575.98px) {
+    img[alt="group-circle"] {
+        display: none !important;
+    }
+
+    .col-lg-6::after {
+        content: "";
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        background-image: url(../image/png/bg-blue.png);
+    }
+
+    img[alt="photo-icon"] {
+        position: absolute;
+        z-index: 1;
+        top: 175px;
+        left: 29%;
+    }
+
+    img[ alt="social-icon"] {
+        position: absolute;
+        z-index: 99 !important;
+        top: 439px;
+    }
+
+    .facebook-2 {
+        left: 50px;
+    }
+
+
+    .linkdin-btn {
+
+        left: 150px;
+    }
+
+    .instagram-btn {
+        left: 260px;
+    }
+
+
+
+    .twiter-btn {
+        left: 370px;
+    }
+
 }
