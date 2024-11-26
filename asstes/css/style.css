@@ -218,17 +218,16 @@ a {
     .circle {
         z-index: 99 !important;
         position: absolute;
-        right: 0%;
-        bottom: -91px;
-        width: 100%;
+        left: -435%;
+        top: -306px;
 
     }
 
     .photo-icon {
         z-index: 99 !important;
         position: absolute;
-        right: 8%;
-        bottom: 140px;
+        right: -549%;
+        bottom: -34px;
     }
 
     .form {
@@ -243,23 +242,24 @@ a {
     }
 
     a .facebook-2 {
-        top: -124px;
-            left: 56px;
+        top: -266px;
+        left: -172px;
+        ;
     }
 
     .linkdin-btn {
-        left: 66px;
-        top: 4px
+        left: -172px;
+        top: -165px;
     }
 
     .instagram-btn {
-        top: 152px;
-        left: 61px;
+        left: -173px;
+        top: -50px;
     }
 
     .twiter-btn {
-        top: 284px;
-        left: 61px;
+        top: 47px;
+        left: -168px;
     }
 }
 
@@ -279,15 +279,15 @@ a {
     img[alt="group-circle"] {
         position: absolute;
         z-index: 1;
-        top: 268px;
-        left: 13%;
+        top: 285px;
+        left: -656%;
     }
 
     img[alt="photo-icon"] {
         position: absolute;
         z-index: 1;
         top: 366px;
-        left: 52%;
+        left: -85%;
     }
 
     img[ alt="social-icon"] {
@@ -296,29 +296,32 @@ a {
     }
 
     .facebook-2 {
-        left: 140px;
-        top: 303px;
+        left: -275px;
+        top: 323px;
     }
 
     .linkdin-btn {
 
-        left: 136px;
-        top: 401px
+        left: -275px;
+        top: 422px;
     }
 
     .instagram-btn {
-        left: 134px;
-        top: 519px;
+        left: -274px;
+        top: 532px;
     }
+
 
 
 
     .twiter-btn {
-        left: 138px;
-        top: 618px;
-    }
+        left: -278px;
+        top: 637px;
 
+    }
 }
+
+
 
 @media (max-width:575.98px) {
     img[alt="group-circle"] {
@@ -340,7 +343,7 @@ a {
         position: absolute;
         z-index: 1;
         top: 175px;
-        left: 29%;
+        left: -273%;
     }
 
     img[ alt="social-icon"] {
@@ -350,23 +353,23 @@ a {
     }
 
     .facebook-2 {
-        left: 50px;
+        left: -170px;
     }
 
 
     .linkdin-btn {
 
-        left: 150px;
+        left: -98px;
     }
 
     .instagram-btn {
-        left: 260px;
+        left: -22px;
     }
 
 
 
     .twiter-btn {
-        left: 370px;
+        left: 45px;
     }
 
 }
